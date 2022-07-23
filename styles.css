@@ -1,0 +1,72 @@
+body{
+    background-image:url('https://enjoycss.com/webshots/hy_1.png');
+    height:100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+label{
+    display:block;
+    margin: 0.5rem 0;
+}
+
+.survey-form{
+    width:500px;
+    background-color:white;
+    margin:0 auto;
+    margin-top:20% !important;
+    top:20%;
+    padding:20px;
+
+    border-radius: 10px;
+    border-top: 8px solid rgb(138, 121, 210);
+}
+
+fieldset{
+    border:none;
+    margin-top:20px;
+    border-top: 2px solid gray;
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+fieldset:last-of-type{
+    border-bottom: 2px solid gray;
+    margin-bottom: 10px;
+}
+h1,p{
+    text-align:center;
+}
+p{
+    padding:0 20px;
+}
+
+.form-icon{
+    width:150px;
+    border-radius: 50px;
+    display:block;
+    margin:0 auto;
+    /* transform: translateY(-50px); */
+}
+input, select{
+    display:block;
+    width:100%;
+    padding-right: 0;
+    margin-top: 10px;
+}
+input[type="radio"], input[type="checkbox"]{
+    width: unset;
+    margin: 0 0.5em 0 20px;
+    display: inline-block;
+}
+textarea{
+    width:100%;
+    height:15vh
+}
+
+input[type="submit"]{
+    background-color: green;
+    color: white;
+    border:none;
+    border-radius: 3px;
+    width: 100px;
+    height:30px;
+    margin:0 auto;
+}

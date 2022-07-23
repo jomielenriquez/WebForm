@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css"/>
+
+    </head>
+    <body>
+        <div class="survey-form">
+            <img class="form-icon" src="https://cdn3.iconfinder.com/data/icons/vector-icons-11/96/525-512.png"/>
+            <h1 id="title">Are you a Software Engineer?</h1>
+            <p id="descriptop">This is a survey form for developers and programmers</p>
+            <form id="survey-form">
+                <fieldset>
+                    <lable id="name-lable">Name: <input id="name" type="text" placeholder="Full Name" required/></lable>
+                    <label id="email-label">Email: <input id="email" type="email" placeholder="Email" required/></label>
+                    <label id="number-label">Age: <input type="number" id="number" min="12" max="120"  placeholder="Age" required/></label>
+                    <label id="profession-label" for="dropdown">Profession:
+                        <select id="dropdown">
+                            <option value="">--Select Profession--</option>
+                            <option value="programmer">Programmer</option>
+                            <option value="QA">QA</option>
+                            <option value="QC">QC</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    Are you a student or profession?
+                    <label><input type="radio" name="radio-prof"/> Student</label>
+                    <label><input type="radio" name="radio-prof"/> Professional</label>
+                </fieldset>
+                <fieldset>
+                    Programming languages that you know.
+                    <label><input type="checkbox" name="Prog-C" value="Prog-C"/> C</label>
+                    <label><input type="checkbox" name="Prog-CS" value="Prog-CS"/> C#</label>
+                    <label><input type="checkbox" name="Prog-Python" value="Prog-Python"/> Python</label>
+                </fieldset>
+                <fieldset>
+                    Additional information.
+                    <textarea></textarea>
+                </fieldset>
+                <input type="submit" name="Submit">
+            </form>
+        </div>
+    </body>
+</html>
